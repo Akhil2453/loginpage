@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="img1.png" type="image/gif" sizes="16x16">
+</head>
+<title>  LOGIN </title>
+<body>
+
+<div class="main">
+<img src="back.jpg" alt="back" width="100%" height="100%" >
+
+<div class="top-left"> VISHNU NAIR'S WEBSITE </div>
+
+</div>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" >
+    <div class="imgcontainer">
+      <span  class="close" title="Close Modal">&times;</span>
+      <img src="img1.png" alt="Avatar" class="avatar" >
+    </div>
+
+    <div class="container">
+      <label for="uname" ><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required >
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" id="psw" name="psw" onfocus="document.getElementById('message').style.display='block	'" required>
+		  <div class='modal2' id="message">
+  <h3>Password must contain the following:</h3>
+  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+  <p id="number" class="invalid">A <b>number</b></p>
+  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+</div>	
+		<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"> <span> Cancel</span></button>	
+      <button type="submit" class="loginbtn" >	<span>Login </span></button>
+      
+    </div>
+	
+
+    <div class="container" style="background-color:#f1f1f1">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+      <span class="psw"> <a href="#">Forgot password?</a></span>
+	  
+	 </div>
+	 
+	  
+  </form>
+    </div>
+
+				
+
+</body>
+</html>
